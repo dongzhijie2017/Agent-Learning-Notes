@@ -7,17 +7,18 @@
 
 ## 🌟 核心成果：Project 1 - MCP 工具集成 (Mock版)
 
-我重构了 Project 1 的 MCP 工具集成部分，使其适配 **Qwen-Max** 模型并支持 **本地 Mock 调试**，解决了原课程依赖真实 API Key 导致调试困难的问题。
+### ✅ Project 1: MCP 工具集成 (Mock版)
+**状态**: 已通关 💯 | **模型**: Qwen-Max
 
-### 🔧 我的改进点
-1.  **Mock 服务端 (`weather_server.py`)**：
-    * 移除真实 API 依赖，实现了模拟数据返回。
-    * 支持无网环境调试 MCP 协议逻辑。
-2.  **Qwen 客户端 (`mcp_client_qwen.py`)**：
-    * 重写客户端代码，完美适配阿里云 **Qwen-Max** 模型。
-    * 增加了更清晰的控制台日志输出。
-3.  **📚 实战笔记**：
-    * [👉 点击查看 Project 1 完整实战与避坑指南](docs/Project1-MCP实战笔记.md)
+- **🎯 实战目标**: 基于 MCP 协议实现本地天气工具调用。
+- **🛠️ 我的改进**:
+  - 重构服务端 `weather_server.py` 为 **Mock 模式**，无需 API Key 即可调试。
+  - 重写客户端 `mcp_client_qwen.py`，完美适配 **阿里云 Qwen-Max**。
+- **📝 学习笔记**: [👉 点击阅读 Project 1 完整实战复盘与代码详解](docs/Project1-MCP实战笔记.md)
+
+> **运行成功截图**:
+>
+> ![Project 1 运行效果](<img width="999" height="287" alt="74c68c2ccf91ac7b76b0c2a782d85de0" src="https://github.com/user-attachments/assets/308f3ebf-8c16-45cb-947f-5c73031ad731" />）
 
 ---
 
